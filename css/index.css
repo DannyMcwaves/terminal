@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    color: white;
+}
+#start{
+    background-image: url(../images/skill.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: black;
+}
+
+#start article.one{
+    overflow: hidden;
+    background-color: black;
+    opacity: 0.8;
+    width: 100%;
+    position: relative;
+}
+
+#start article.one img.int{
+    padding: 0px 30px;
+    padding-bottom: 3px;
+}
+
+#start article.one img{
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#intModal .modal-title, #compModal .modal-title{
+    font-family: Montserrat-Bold;
+}
+
+
+#intModal h6.dir {
+	font-family: LobsterTwo-Regular;
+}
+#intModal article {
+	font-family: Lato-Regular;
+}
+#intModal form {
+	font-family: Raleway-Bold;
+}

@@ -1,0 +1,13 @@
+{
+  "name": "xTERM",
+  "version": "1.0.0",
+  "description": "my first ever desktop app",
+  "main": "main.js",
+  "devDependencies": {
+    "electron-prebuilt": "^0.35.2"
+  },
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "author": "danny_mcwaves"
+}

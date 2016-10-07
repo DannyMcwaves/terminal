@@ -1,0 +1,31 @@
+{
+  "name": "paths",
+  "version": "1.0.0",
+  "description": "a very simple module for creating paths, normalizing paths, joining paths, directories and also for creating and reading those paths whether they are directories or files",
+  "main": "path.js",
+  "scripts": {
+    "test": "test path.js"
+  },
+  "dependencies": {
+  	
+  },
+  "repository": {
+    "type": "git",
+    "url": "www.github.com/danny_mcwaves/nodes/paths"
+  },
+  "keywords": [
+    "paths",
+    "files",
+    "directories",
+    "create",
+    "rename",
+    "delete",
+    "read",
+    "update",
+    "append",
+    "normalize",
+    "resolve"
+  ],
+  "author": "danny mcwaves",
+  "license": "ISC"
+}

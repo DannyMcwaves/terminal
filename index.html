@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TERMINAL</title>
+        <link href="images/earn-bitcoins-donations-qr-code.png" rel="icon"/>
+        <link href="css/index.css" rel="stylesheet"/>
+        <link href="css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="css/all.css" rel="stylesheet"/>
+        <link href="font.css" rel="stylesheet"/>
+    </head>
+
+    <body>
+
+        <div id="start">
+            <article class="one container-fluid">
+                 <div class="col-sm-6 text-sm-right m-b-2">
+                    <img src="images/xtreme.jpeg" class="int" data-toggle="modal" data-target="#intModal">
+                </div>
+                <div class="col-sm-6">
+                    <img src="images/terminal.png" class="comp">
+                </div>
+            </article>
+
+            <div class="modal fade" id="intModal">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <h4 class="modal-title">INTERACTIVE TERMINAL</h4>
+                        </div>
+
+                        <div class="modal-body" id="terminal">
+							<section class="m-b-2">
+                            	<form state="active" class="input-group">
+                                	<span class="input-group-addon">&gt;&gt;&gt;</span>
+                                	<input class="form-control" type="text"/>
+                            	</form>
+								<article output="true" class="collapse bg-inverse">
+									<p class="p-a-1"></p>
+								</article>
+							</section>
+                        </div>
+
+                        <div class="modal-footer">
+							<h6 class="dir text-xs-center text-muted"></h6>
+                             <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+		
+		<form id="ide" class="" style="display:none;">
+			this is the part of the compiled source code of the terminal.
+		</form>
+		
+		<div class="modal fade" id="compModal">
+        	<div class="modal-dialog modal-lg">
+            	<div class="modal-content">
+
+                	<div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h4 class="modal-title">COMPILED TERMINAL</h4>
+                    </div>
+
+                    <div class="modal-body">
+						<form class="form">
+							<article class="input-group">
+								<span class="input-group"></span>
+							</article>
+						</form>
+					</div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+   		</div>
+		
+    </body>
+
+    <script>
+        window.$ = window.jQuery = require('./js/jquery-2.1.4.min.js');
+        jQuery = window.jQuery;
+    </script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/utilities.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/commands.js"></script>
+	
+</html>
