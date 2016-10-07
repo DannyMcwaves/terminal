@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "my first ever desktop app",
   "main": "main.js",
+  "dependencies":{
+  	"electron-prebuilt -g"
+  },
   "devDependencies": {
     "electron-prebuilt": "^0.35.2"
   },
